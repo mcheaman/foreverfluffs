@@ -1,0 +1,46 @@
+@charset "utf-8";
+
+ /*
+		Name: Mason Heaman
+		Assignment: Project V1
+		Date: 2019-02-05
+		Filename:reset.css
+	
+*/
+
+/*M3LO1 Demonstrate the use of a CSS reset style sheet (CSS, note where you have CSS reset rules) Here are all of the reset rules that i may or may not use. But it is good to include all possible rules.*/
+/* Structure Styles */
+
+article, aside, figcaption, figure, footer, header, main, nav, section {
+	display: block;
+}
+
+/* Text Styles */
+
+address, article, aside, blockquote, body, cite, div, dl, dt, dd, em, figcaption, 
+figure, footer, h1, h2, h3, h4, h5, h6, header, html, img, li, main, nav, ol, p,
+section, span, ul {
+	
+	background: transparent;
+	font-size: 100%;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+
+    -webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+    box-sizing: border-box;	
+}
+
+nav ul {
+	list-style: none;
+	list-style-image: none;
+}
+
+nav a {
+	text-decoration: none;
+}
+	
+body {
+	line-height: 1;
+}

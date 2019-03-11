@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="utf-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="keywords" content="adoption, pets, dogs, cats" />
+    <link href="reset.css" rel="stylesheet" />
+	<link href="styles.css" rel="stylesheet" />
+	<title>Home-Forever Fluffs</title>
+  <!--
+		Name: Mason Heaman
+		Assignment: Project V3
+		Date: 2019-02-19
+		Filename:whereadopt.html
+	-->
+</head>
+
+<body>
+  <header>
+    <img src="pup.jpg" alt="german shepard puppy" class="head" id="pup" />
+    <img src="puppykitten.jpg" alt="puppy and kitten cuddling" class="head" id="puppykitten" usemap="#pet_map" /> 
+	<img src="kitten.jpg" alt="cute grey kitten" class="head" id="kitten"/>
+	
+	<map name="pet_map">
+	  <area shape="circle" coords="300,150,30" href="https://www.thesprucepets.com/pros-and-cons-adopting-adult-dogs-1117347" alt="puppy pros and cons">
+	  <!--website linked to show the pros and cons of choosing a dog-->
+	</map>
+	
+	<nav class="horizontalnav">
+      <ul class="menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="whichpet.html" class="dropmenuTitle">Which Pet Is Right For You?</a>
+		  <ul class="dropMenu">
+		    <li><a href="#">Dogs</a></li>
+            <li><a href="#">Cats</a></li>
+            <li><a href="#">Rodents</a></li>
+            <li><a href="#">Reptiles</a></li>
+		  </ul>
+		</li>
+        <li><a href="welcomehome.html">Welcome Your Pet Home</a></li>
+        <li><a href="whereadopt.html">Adoption Centers</a></li>
+	    <li><a href="https://www.aspca.org/adopt-pet/adoption-tips"> ASPCA</a></li>
+      </ul>
+	</nav>
+  </header>
+	  <h1>Forever Fluffs</h1>
+	  <p><strong>There are many of options when looking at a place to adopt. Ckeck the chart below to see if the following centers have your desired animals!</strong></p>
+	  <!--M6LO3 Demonstrate how to create a table. By using the thead, tbody, and tfoot tags I create the three sections of the table. Then using the tr tag to make a new row, and the th/td tag to fill it, I can enter all the data into the table -->
+	  <table class="adoptionCenters">
+        <thead>
+          <tr>
+            <th>Center Name</th>
+            <th>Dogs</th>
+            <th>Cats</th>
+            <th>Rodents</th>
+            <th>Reptiles</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th>Kitsap Humane Society</th>
+            <td colspan="2">yes</td>
+			<td>sometimes</td>
+			<td>no</td>
+          </tr>
+          <tr> 
+            <th>Petsmart</th>
+			<!--M6LO4 Demonstrate how to span multiple rows or multiple columns in a table. Below i used the colspan and rowspan attributes to make the td span over 4 collumns and 2 rows.-->
+            <td colspan="4" rowspan="2">yes</td>
+          </tr>
+          <tr>		  
+		  <th>PetCo</th>
+		  </tr>
+          <tr>
+            <th>Farmland</th>
+            <td>yes</td>
+            <td>no</td>
+			<td colspan="2">yes</td>
+	      </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+          <th colspan="5">All centers shown are in the Kitsap County Area.</th>
+          </tr>
+        </tfoot>
+      </table>
+	  
+	  
+  <footer>
+    Forever Fluffs &#8226; Animal Adoption Information &#8226; <a href="about.html#V3">Verson 3</a>
+  </footer>
+</body>
+</html>
