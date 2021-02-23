@@ -1,3 +1,3 @@
-This is my CIS 155 readme for my repo. Its supposed to show up on github.
+Web Design project that demonstrates knowledge in HTML, CSS, and the beginnings of accessibility conformation. This website is modled to be advertising an adption agency and inform the reader about adoption
 
-my prject is about adopting animals.
+Mason Heaman
